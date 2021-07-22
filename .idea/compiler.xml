@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sly-springboot-01-demo" />
+        <module name="sly-springboot-05-servelet" />
+        <module name="sly-springboot-02-demo" />
+        <module name="sly-springboot-04-jdbc" />
+        <module name="sly-springboot-03-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="whut-springboot" target="1.8" />
+      <module name="whut-springboot-04-jdbc" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

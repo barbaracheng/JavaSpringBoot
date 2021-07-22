@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<service>
+    <sql key="listCustomer" value="select cid,cust_name,cust_mobile,cust_address,cust_ticket from customer"></sql>
+    <sql key="listAccount" value="select id,account_name,account_balance from tb_account"></sql>
+    <sql key="saveCustomer" value="insert into customer(cust_name,cust_mobile,cust_address,cust_ticket) values(?,?,?,?)"></sql>
+    <sql key="updateCustomer" value="update customer set cust_name=?,cust_mobile=?,cust_address=?,cust_ticket=? where cid=?"></sql>
+    <sql key="deleteCustomer" value="delete from customer where cid=?"></sql>
+    <sql key="getCustomerById" value="select cid,cust_name,cust_mobile,cust_address,cust_ticket from customer where cid=?"></sql>
+    <sql key="selectCustomerCount" value="select count(*) from customer"></sql>
+    <sql key="batchDeleteCustomer" value="delete from customer where cid=?"></sql>
+    <sql key="querySongWord" value="select id,song_name,song_word from songinfo where song_name=?"></sql>
+    <sql key="login" value="select user_name,user_pwd from account where user_name=?"></sql>
+</service>
